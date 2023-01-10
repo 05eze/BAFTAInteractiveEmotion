@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddc5d799-2c70-4639-81ee-e6cb269250e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CharacterController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="ddc5d799-2c70-4639-81ee-e6cb269250e4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CharacterController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
+            <state relative-caret-position="531">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <marker date="1673363624469" expanded="false" signature="6:78" ph="..." />
                 <marker date="1673363624469" expanded="true" signature="128:2417" ph="{...}" />
@@ -92,12 +90,12 @@
       <workItem from="1673348895340" duration="3096000" />
       <workItem from="1673360618036" duration="81000" />
       <workItem from="1673360718551" duration="1156000" />
-      <workItem from="1673362470912" duration="1425000" />
+      <workItem from="1673362470912" duration="1674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5758000" />
+    <option name="totallyTimeSpent" value="6007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -155,8 +153,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CharacterController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
+        <state relative-caret-position="531">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
           <folding>
             <marker date="1673363624469" expanded="false" signature="6:78" ph="..." />
             <marker date="1673363624469" expanded="true" signature="128:2417" ph="{...}" />
