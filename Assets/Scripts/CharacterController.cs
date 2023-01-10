@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
-    public float maxSpeed = 1.0f;
+    public float maxSpeed;
+    public float normalSpeed = 10.0f;
+    public float sprintSpeed = 20.0f;
+    
     public float rotation = 0.0f;
     public float camRotation = 0.0f;
     GameObject cam;
@@ -35,9 +38,9 @@ public class CharacterController : MonoBehaviour
             myRigidbody.AddForce(transform.up * jumpForce);
         }   
 
-            transform.position = transform.position + (transform.forward * Input.GetAxis("Vertical") * maxSpeed) + transform.right * Input.GetAxis("Horizontal") * maxSpeed;
+        //transform.position = transform.position + (transform.forward * Input.GetAxis("Vertical") * maxSpeed) + transform.right * Input.GetAxis("Horizontal") * maxSpeed;
 
-        Vector3 newVelocity = transform.forward * Input.GetAxis("Vertical") * maxSpeed;
+        Vector3 newVelocity = transform.forward * Input.GetAxis("Vertical") * maxSpeed + transform.right * Input.GetAxis("Horizontal") * maxSpeed;
         myRigidbody.velocity = new Vector3(newVelocity.x, myRigidbody.velocity.y, newVelocity.z);
 
         rotation = rotation + Input.GetAxis("Mouse X") * rotationSpeed;
