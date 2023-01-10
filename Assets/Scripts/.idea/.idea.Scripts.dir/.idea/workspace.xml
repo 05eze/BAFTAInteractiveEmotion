@@ -12,18 +12,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CharacterController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="411">
+              <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
               <folding>
-                <marker date="1673351568724" expanded="true" signature="6:78" ph="..." />
-                <marker date="1673351568724" expanded="true" signature="128:1745" ph="{...}" />
-                <marker date="1673351568724" expanded="true" signature="605:712" ph="{...}" />
-                <marker date="1673351568724" expanded="true" signature="735:1743" ph="{...}" />
-                <marker date="1673351568724" expanded="true" signature="904:984" ph="{...}" />
+                <marker date="1673361721330" expanded="false" signature="6:78" ph="..." />
+                <marker date="1673361721330" expanded="true" signature="128:2322" ph="{...}" />
+                <marker date="1673361721330" expanded="true" signature="677:827" ph="{...}" />
+                <marker date="1673361721330" expanded="true" signature="1019:1099" ph="{...}" />
+                <marker date="1673361721330" expanded="true" signature="1171:1283" ph="{...}" />
+                <marker date="1673361721330" expanded="true" signature="1296:1498" ph="{...}" />
+                <marker date="1673361721330" expanded="true" signature="1400:1488" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -44,11 +46,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="301" />
-    <option name="y" value="220" />
-    <option name="width" value="1440" />
-    <option name="height" value="779" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2002" />
+    <option name="width" value="953" />
+    <option name="height" value="866" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -66,6 +67,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -90,11 +92,13 @@
       <option name="presentableId" value="Default" />
       <updated>1673348882164</updated>
       <workItem from="1673348895340" duration="3096000" />
+      <workItem from="1673360618036" duration="81000" />
+      <workItem from="1673360718551" duration="993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3096000" />
+    <option name="totallyTimeSpent" value="4170000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -106,19 +110,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="301" y="220" width="1440" height="779" extended-state="0" />
+    <frame x="2002" y="0" width="953" height="866" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3975364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -126,18 +123,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -152,14 +156,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CharacterController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="411">
+          <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
           <folding>
-            <marker date="1673351568724" expanded="true" signature="6:78" ph="..." />
-            <marker date="1673351568724" expanded="true" signature="128:1745" ph="{...}" />
-            <marker date="1673351568724" expanded="true" signature="605:712" ph="{...}" />
-            <marker date="1673351568724" expanded="true" signature="735:1743" ph="{...}" />
-            <marker date="1673351568724" expanded="true" signature="904:984" ph="{...}" />
+            <marker date="1673361721330" expanded="false" signature="6:78" ph="..." />
+            <marker date="1673361721330" expanded="true" signature="128:2322" ph="{...}" />
+            <marker date="1673361721330" expanded="true" signature="677:827" ph="{...}" />
+            <marker date="1673361721330" expanded="true" signature="1019:1099" ph="{...}" />
+            <marker date="1673361721330" expanded="true" signature="1171:1283" ph="{...}" />
+            <marker date="1673361721330" expanded="true" signature="1296:1498" ph="{...}" />
+            <marker date="1673361721330" expanded="true" signature="1400:1488" ph="{...}" />
           </folding>
         </state>
       </provider>

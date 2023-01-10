@@ -553,9 +553,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7016e4698a9121947b71c68f10beb510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 5
+  maxSpeed: 1
   normalSpeed: 10
-  sprintSpeed: 20
+  sprintSpeed: 30
   rotation: 0
   camRotation: 0
   groundChecker: {fileID: 347032507}
@@ -565,6 +565,7 @@ MonoBehaviour:
   jumpForce: 300
   rotationSpeed: 2
   camRotationSpeed: -1.5
+  maxSprint: 5
 --- !u!54 &2070664936
 Rigidbody:
   m_ObjectHideFlags: 0

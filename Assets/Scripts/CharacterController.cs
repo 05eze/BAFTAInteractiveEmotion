@@ -21,11 +21,18 @@ public class CharacterController : MonoBehaviour
     
     public float rotationSpeed = 2.0f;
     public float camRotationSpeed = -1.5f;
+
+    public float maxSprint = 5.0f;
+    private float sprintTimer;
+    
     
 
     void Start()
     {
         cam = GameObject.Find("Main Camera");
+
+        sprintTimer = maxSprint;
+        
         myRigidbody = GetComponent<Rigidbody>();
     }
     
@@ -36,7 +43,23 @@ public class CharacterController : MonoBehaviour
         if (isOnGround == true && Input.GetKeyDown(KeyCode.Space))
         {
             myRigidbody.AddForce(transform.up * jumpForce);
-        }   
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && sprintTimer > 0.0f)
+        {
+            maxSpeed = sprintSpeed;
+            sprintTimer = sprintTimer - Time.deltaTime;
+        }
+        else
+        {
+            maxSpeed = normalSpeed;
+            if (Input.GetKey(KeyCode.LeftShift) == false)
+            {
+                sprintTimer = sprintTimer + Time.deltaTime;
+            }
+        }
+
+        sprintTimer = Mathf.Clamp(sprintTimer, 0.0f, maxSprint);
 
         //transform.position = transform.position + (transform.forward * Input.GetAxis("Vertical") * maxSpeed) + transform.right * Input.GetAxis("Horizontal") * maxSpeed;
 
