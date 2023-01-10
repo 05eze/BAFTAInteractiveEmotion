@@ -45,7 +45,7 @@ public class CharacterController : MonoBehaviour
             myRigidbody.AddForce(transform.up * jumpForce);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && sprintTimer > 0.0f)
+        if (isOnGround == true && Input.GetKeyDown(KeyCode.LeftShift) && sprintTimer > 0.0f)
         {
             maxSpeed = sprintSpeed;
             sprintTimer = sprintTimer - Time.deltaTime;
