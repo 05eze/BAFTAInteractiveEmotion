@@ -75,4 +75,5 @@ public class CharacterController : MonoBehaviour
         
         cam.transform.localRotation = Quaternion.Euler(new Vector3( camRotation, 0.0f, 0.0f));
     }
+    //Add SFX when picking up collectable 
 }
