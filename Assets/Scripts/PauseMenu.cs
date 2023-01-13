@@ -26,6 +26,7 @@ public class PauseMenu : MonoBehaviour
             else
             {
                 PauseGame();
+                //Cursor.lockState = CursorLockMode.Locked;
             }
         }
     }
