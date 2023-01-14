@@ -8,6 +8,6 @@ public class StartScreen : MonoBehaviour
 {
     public void StartButton()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Main Menu");
     }
 }

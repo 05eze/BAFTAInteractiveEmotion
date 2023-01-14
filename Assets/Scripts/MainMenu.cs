@@ -8,17 +8,17 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayButton()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Lowjaw City 1");
     }
 
     public void OptionsButton()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene("Options");
     }
 
     public void CreditsButton()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene("Credits");
     }
 
     public void QuitGame()

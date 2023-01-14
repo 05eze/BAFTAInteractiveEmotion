@@ -34,6 +34,8 @@ public class CharacterController : MonoBehaviour
         sprintTimer = maxSprint;
         
         myRigidbody = GetComponent<Rigidbody>();
+
+        //Cursor.lockState = CursorLockMode.Locked;
     }
     
     void Update()
