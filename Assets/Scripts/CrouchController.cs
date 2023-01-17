@@ -12,7 +12,7 @@ public class CrouchController : MonoBehaviour
     public Transform capsule;
     public float conHeight = 1f;
     public float CapsuleHeight = .5f;
-    
+    public float crouchSpeed = 5.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +24,8 @@ public class CrouchController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.C))
         {
+            //Vector3 newVelocity = (transform.forward * Input.GetAxis("Vertical") * crouchSpeed + transform.right * Input.GetAxis("Horizontal") * crouchSpeed);
+
             cam.transform.position = crouchPos.transform.position;
             Con.height = conHeight;
             capsule.localScale = new Vector3(1, CapsuleHeight, 1);
@@ -34,5 +36,5 @@ public class CrouchController : MonoBehaviour
             Con.height = 2f;
             capsule.localScale = new Vector3(1, 1, 1);
         }
-    }
+    } //https://www.youtube.com/watch?v=A-LMxuj-A0I 9:02
 }
