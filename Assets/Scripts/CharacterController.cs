@@ -47,7 +47,7 @@ public class CharacterController : MonoBehaviour
             myRigidbody.AddForce(transform.up * jumpForce);
         }
 
-        if (isOnGround == true && Input.GetKeyDown(KeyCode.LeftShift) && sprintTimer > 0.0f)
+        if (Input.GetKey(KeyCode.LeftShift) && sprintTimer > 0.0f)
         {
             maxSpeed = sprintSpeed;
             sprintTimer = sprintTimer - Time.deltaTime;
@@ -65,7 +65,7 @@ public class CharacterController : MonoBehaviour
 
         //transform.position = transform.position + (transform.forward * Input.GetAxis("Vertical") * maxSpeed) + transform.right * Input.GetAxis("Horizontal") * maxSpeed;
 
-        Vector3 newVelocity = transform.forward * Input.GetAxis("Vertical") * maxSpeed + transform.right * Input.GetAxis("Horizontal") * maxSpeed;
+        Vector3 newVelocity = (transform.forward * Input.GetAxis("Vertical") * maxSpeed + transform.right * Input.GetAxis("Horizontal") * maxSpeed);
         myRigidbody.velocity = new Vector3(newVelocity.x, myRigidbody.velocity.y, newVelocity.z);
 
         rotation = rotation + Input.GetAxis("Mouse X") * rotationSpeed;
