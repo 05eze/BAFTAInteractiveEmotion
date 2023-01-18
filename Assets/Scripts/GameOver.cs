@@ -6,7 +6,7 @@ public class GameOver : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        UnityEngine.SceneManagement.SceneManager.
+        UnityEngine.SceneManagement.SceneManager.LoadScene(8);
     }
     void Start()
     {
