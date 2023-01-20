@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayButton()
     {
-        SceneManager.LoadScene("Lowjaw City 1");
+        SceneManager.LoadScene("VRScene1");
     }
 
     public void OptionsButton()

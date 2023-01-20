@@ -11,12 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: b1b4a314b6cb49346b97237fa1ead63e
-  - enabled: 0
-    path: Assets/Scenes/Options.unity
-    guid: 8cb286564f2a2df47996b0f01062dd74
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 12660b5f5939204478a20d9f798e7a56
+  - enabled: 1
+    path: Assets/Scenes/VRScene1.unity
+    guid: 1258300dec9baae4c9dcd98c181a71ed
+  - enabled: 1
+    path: Assets/Scenes/ErrorScreen.unity
+    guid: 27b861235073fe647b8495726839980c
   - enabled: 1
     path: Assets/Scenes/Lowjaw City 1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
