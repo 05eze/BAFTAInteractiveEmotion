@@ -15,7 +15,16 @@ public class Error : MonoBehaviour
 
     public void Init(Transform canvas, string popupMessage, string btn1txt, string btn2txt, System.Action action)
     {
+        _popupText.text = popupMessage;
+		_button1Text.text = btn1txt;
 
+		transform.SetParent(canvas);
+		transform.localScale = Vector3.one;
+
+		_button1.onClick.AddListener(() =>
+		{
+			action();
+		});	
     }
 
     // Start is called before the first frame update
@@ -30,4 +39,4 @@ public class Error : MonoBehaviour
         
     }
 }
-//https://www.youtube.com/watch?v=Bm62aXuVX4I 6:41
+//https://www.youtube.com/watch?v=Bm62aXuVX4I 

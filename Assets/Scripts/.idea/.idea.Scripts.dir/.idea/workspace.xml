@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddc5d799-2c70-4639-81ee-e6cb269250e4" name="Default Changelist" comment="" />
+    <list default="true" id="ddc5d799-2c70-4639-81ee-e6cb269250e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Error.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Error.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,20 +14,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CharacterController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="1328">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Error.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
               <folding>
-                <marker date="1673363624469" expanded="false" signature="6:78" ph="..." />
-                <marker date="1673363624469" expanded="true" signature="128:2417" ph="{...}" />
-                <marker date="1673363624469" expanded="true" signature="677:827" ph="{...}" />
-                <marker date="1673363624469" expanded="true" signature="850:2415" ph="{...}" />
-                <marker date="1673363624469" expanded="true" signature="1019:1099" ph="{...}" />
-                <marker date="1673363624469" expanded="true" signature="1193:1305" ph="{...}" />
-                <marker date="1673363624469" expanded="true" signature="1318:1520" ph="{...}" />
-                <marker date="1673363624469" expanded="true" signature="1422:1510" ph="{...}" />
+                <element signature="e#0#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ErrorTrigger.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding>
+                <marker date="1674208142274" expanded="true" signature="6:114" ph="..." />
+                <marker date="1674208142274" expanded="true" signature="157:339" ph="{...}" />
+                <marker date="1674208142274" expanded="true" signature="237:243" ph="{...}" />
+                <marker date="1674208142274" expanded="true" signature="316:337" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EnemyAI.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GameOver.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,20 +78,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ErrorTrigger.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Error.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EnemyAI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameOver.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CharacterController.cs" />
+        <option value="$PROJECT_DIR$/Error.cs" />
+        <option value="$PROJECT_DIR$/ErrorTrigger.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2179" />
-    <option name="y" value="66" />
-    <option name="width" value="953" />
-    <option name="height" value="866" />
+    <option name="x" value="1913" />
+    <option name="width" value="986" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -91,11 +139,12 @@
       <workItem from="1673360618036" duration="81000" />
       <workItem from="1673360718551" duration="1156000" />
       <workItem from="1673362470912" duration="1674000" />
+      <workItem from="1674206197512" duration="1945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6007000" />
+    <option name="totallyTimeSpent" value="7952000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -107,7 +156,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2179" y="66" width="953" height="866" extended-state="0" />
+    <frame x="1913" y="0" width="986" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3975364" />
@@ -153,17 +202,48 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CharacterController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="1328">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Error.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
           <folding>
-            <marker date="1673363624469" expanded="false" signature="6:78" ph="..." />
-            <marker date="1673363624469" expanded="true" signature="128:2417" ph="{...}" />
-            <marker date="1673363624469" expanded="true" signature="677:827" ph="{...}" />
-            <marker date="1673363624469" expanded="true" signature="850:2415" ph="{...}" />
-            <marker date="1673363624469" expanded="true" signature="1019:1099" ph="{...}" />
-            <marker date="1673363624469" expanded="true" signature="1193:1305" ph="{...}" />
-            <marker date="1673363624469" expanded="true" signature="1318:1520" ph="{...}" />
-            <marker date="1673363624469" expanded="true" signature="1422:1510" ph="{...}" />
+            <element signature="e#0#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnemyAI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameOver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErrorTrigger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <marker date="1674208142274" expanded="true" signature="6:114" ph="..." />
+            <marker date="1674208142274" expanded="true" signature="157:339" ph="{...}" />
+            <marker date="1674208142274" expanded="true" signature="237:243" ph="{...}" />
+            <marker date="1674208142274" expanded="true" signature="316:337" ph="{...}" />
           </folding>
         </state>
       </provider>
