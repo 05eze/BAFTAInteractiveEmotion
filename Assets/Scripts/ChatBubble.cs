@@ -15,7 +15,7 @@ public class ChatBubble : MonoBehaviour
     }
     private void Start()
     {
-        Setup("Hello World!");
+        Setup("Hello World! I am alive.");
     }
     private void Setup(string text)
     {
@@ -25,6 +25,9 @@ public class ChatBubble : MonoBehaviour
 
 		Vector2 padding = new Vector2(4f, 2f);
 		backgroundSpriteRenderer.size = textSize + padding;
+        
+        backgroundSpriteRenderer.transform.localPosition = 
+            new Vector3(backgroundSpriteRenderer.size.x / 2f, 0f);
     }
 }
 //https://www.youtube.com/watch?v=K13WnNL1OYM 6:37
