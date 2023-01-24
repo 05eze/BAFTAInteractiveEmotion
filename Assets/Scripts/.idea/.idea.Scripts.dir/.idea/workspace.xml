@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc5d799-2c70-4639-81ee-e6cb269250e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ChatBubble.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChatBubble.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/Iphis 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Iphis 2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/Lowjaw City 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Lowjaw City 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayerInteract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerInteract.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,36 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CharacterController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="746">
+            <state relative-caret-position="1097">
               <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IphisCompanyDoor.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-              <folding>
-                <marker date="1674468971505" expanded="true" signature="6:110" ph="..." />
-                <marker date="1674468971505" expanded="true" signature="160:272" ph="{...}" />
-                <marker date="1674468971505" expanded="true" signature="210:270" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IphisCompanyExit.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-              <folding>
-                <marker date="1674469208929" expanded="true" signature="6:108" ph="..." />
-                <marker date="1674469208929" expanded="true" signature="160:267" ph="{...}" />
-                <marker date="1674469208929" expanded="true" signature="210:265" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -56,7 +31,7 @@
             <state relative-caret-position="144">
               <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
               <folding>
-                <marker date="1674469692894" expanded="true" signature="6:113" ph="..." />
+                <element signature="e#0#113#0" expanded="true" />
                 <marker date="1674469692894" expanded="true" signature="153:266" ph="{...}" />
                 <marker date="1674469692894" expanded="true" signature="203:264" ph="{...}" />
               </folding>
@@ -67,11 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Error.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
+            <state relative-caret-position="80">
               <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#127#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -90,13 +62,64 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChatBubble.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="544">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#0#91#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NPCInteractable.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <marker date="1674563588730" expanded="true" signature="6:78" ph="..." />
+                <marker date="1674563588730" expanded="true" signature="124:203" ph="{...}" />
+                <marker date="1674563588730" expanded="true" signature="158:201" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PlayerInteract.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#91#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dialogue.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <folding>
+                <marker date="1674564153716" expanded="true" signature="6:91" ph="..." />
+                <marker date="1674564153716" expanded="true" signature="130:1511" ph="{...}" />
+                <marker date="1674564153716" expanded="true" signature="276:508" ph="{...}" />
+                <marker date="1674564153716" expanded="true" signature="323:419" ph="{...}" />
+                <marker date="1674564153716" expanded="true" signature="566:889" ph="{...}" />
+                <marker date="1674564153716" expanded="true" signature="613:874" ph="{...}" />
+                <marker date="1674564153716" expanded="true" signature="675:731" ph="{...}" />
+                <marker date="1674564153716" expanded="true" signature="748:864" ph="{...}" />
+                <marker date="1674564153716" expanded="true" signature="915:982" ph="{...}" />
+                <marker date="1674564153716" expanded="true" signature="1010:1231" ph="{...}" />
+                <marker date="1674564153716" expanded="true" signature="1108:1221" ph="{...}" />
+                <marker date="1674564153716" expanded="true" signature="1252:1504" ph="{...}" />
+                <marker date="1674564153716" expanded="true" signature="1296:1424" ph="{...}" />
+                <marker date="1674564153716" expanded="true" signature="1437:1498" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -130,15 +153,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/IphisCompanyDoor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dialogue.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlayerInteract.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IphisCompanyDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ErrorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Error.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChatBubble.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/IphisExit.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/IphisCompanyExit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NPCInteractable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IphisExit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IphisCompanyExit.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -150,14 +176,17 @@
         <option value="$PROJECT_DIR$/IphisCompanyDoor.cs" />
         <option value="$PROJECT_DIR$/IphisCompanyExit.cs" />
         <option value="$PROJECT_DIR$/IphisExit.cs" />
+        <option value="$PROJECT_DIR$/PlayerInteract.cs" />
+        <option value="$PROJECT_DIR$/NPCInteractable.cs" />
+        <option value="$PROJECT_DIR$/Dialogue.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="736" />
-    <option name="y" value="-15" />
-    <option name="width" value="996" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,11 +231,12 @@
       <workItem from="1673362470912" duration="1674000" />
       <workItem from="1674206197512" duration="1945000" />
       <workItem from="1674465764387" duration="3958000" />
+      <workItem from="1674558662180" duration="4370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11910000" />
+    <option name="totallyTimeSpent" value="16280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -218,7 +248,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="0" width="996" height="1047" extended-state="0" />
+    <frame x="1912" y="-8" width="976" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3975364" />
@@ -262,13 +292,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/IphisCompanyDoor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding>
+            <marker date="1674468971505" expanded="true" signature="6:110" ph="..." />
+            <marker date="1674468971505" expanded="true" signature="160:272" ph="{...}" />
+            <marker date="1674468971505" expanded="true" signature="210:270" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IphisCompanyExit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding>
+            <marker date="1674469208929" expanded="true" signature="6:108" ph="..." />
+            <marker date="1674469208929" expanded="true" signature="160:267" ph="{...}" />
+            <marker date="1674469208929" expanded="true" signature="210:265" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Error.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
+        <state relative-caret-position="80">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#127#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -277,18 +328,6 @@
         <state>
           <folding>
             <element signature="e#0#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ErrorTrigger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <marker date="1674465247152" expanded="true" signature="373:488" ph="{...}" />
-            <marker date="1674465247152" expanded="true" signature="386:392" ph="{...}" />
-            <marker date="1674465247152" expanded="true" signature="465:486" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -307,50 +346,83 @@
         <state relative-caret-position="144">
           <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
           <folding>
-            <marker date="1674469692894" expanded="true" signature="6:113" ph="..." />
+            <element signature="e#0#113#0" expanded="true" />
             <marker date="1674469692894" expanded="true" signature="153:266" ph="{...}" />
             <marker date="1674469692894" expanded="true" signature="203:264" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IphisCompanyDoor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-          <folding>
-            <marker date="1674468971505" expanded="true" signature="6:110" ph="..." />
-            <marker date="1674468971505" expanded="true" signature="160:272" ph="{...}" />
-            <marker date="1674468971505" expanded="true" signature="210:270" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CharacterController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
+        <state relative-caret-position="1097">
           <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IphisCompanyExit.cs">
+    <entry file="file://$PROJECT_DIR$/ErrorTrigger.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        <state relative-caret-position="208">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
-            <marker date="1674469208929" expanded="true" signature="6:108" ph="..." />
-            <marker date="1674469208929" expanded="true" signature="160:267" ph="{...}" />
-            <marker date="1674469208929" expanded="true" signature="210:265" ph="{...}" />
+            <marker date="1674465247152" expanded="true" signature="373:488" ph="{...}" />
+            <marker date="1674465247152" expanded="true" signature="386:392" ph="{...}" />
+            <marker date="1674465247152" expanded="true" signature="465:486" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ChatBubble.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="544">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#0#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NPCInteractable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1674563588730" expanded="true" signature="6:78" ph="..." />
+            <marker date="1674563588730" expanded="true" signature="124:203" ph="{...}" />
+            <marker date="1674563588730" expanded="true" signature="158:201" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlayerInteract.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dialogue.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <marker date="1674564153716" expanded="true" signature="6:91" ph="..." />
+            <marker date="1674564153716" expanded="true" signature="130:1511" ph="{...}" />
+            <marker date="1674564153716" expanded="true" signature="276:508" ph="{...}" />
+            <marker date="1674564153716" expanded="true" signature="323:419" ph="{...}" />
+            <marker date="1674564153716" expanded="true" signature="566:889" ph="{...}" />
+            <marker date="1674564153716" expanded="true" signature="613:874" ph="{...}" />
+            <marker date="1674564153716" expanded="true" signature="675:731" ph="{...}" />
+            <marker date="1674564153716" expanded="true" signature="748:864" ph="{...}" />
+            <marker date="1674564153716" expanded="true" signature="915:982" ph="{...}" />
+            <marker date="1674564153716" expanded="true" signature="1010:1231" ph="{...}" />
+            <marker date="1674564153716" expanded="true" signature="1108:1221" ph="{...}" />
+            <marker date="1674564153716" expanded="true" signature="1252:1504" ph="{...}" />
+            <marker date="1674564153716" expanded="true" signature="1296:1424" ph="{...}" />
+            <marker date="1674564153716" expanded="true" signature="1437:1498" ph="{...}" />
           </folding>
         </state>
       </provider>
