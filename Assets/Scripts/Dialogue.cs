@@ -14,16 +14,8 @@ public class Dialogue : MonoBehaviour
     
     void Start()
     {
-        //if (Input.GetKey(KeyCode.E))
-        //{
             textComponent.text = string.Empty;
             StartDialogue();
-        //}
-        //else
-        //{
-            //gameObject.SetActive(false);
-        //}
-        
     }
 
     // Update is called once per frame
@@ -40,8 +32,7 @@ public class Dialogue : MonoBehaviour
                 StopAllCoroutines();
                 textComponent.text = lines[index];
             }
-        }
-        
+        }  
     }
 
     void StartDialogue()
