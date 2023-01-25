@@ -5,12 +5,13 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
-    /*public TextMeshProUGUI textComponent;
+    public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
 
     private int index;
 
+   
     
     void Start()
     {
@@ -31,6 +32,7 @@ public class Dialogue : MonoBehaviour
             {
                 StopAllCoroutines();
                 textComponent.text = lines[index];
+                
             }
         }  
     }
@@ -63,6 +65,6 @@ public class Dialogue : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
-    }*/
+    }
     
 }
