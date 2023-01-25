@@ -20,6 +20,9 @@ public class DialogueManager : MonoBehaviour
     
     public void StartDialogue (Dialogue2 dialogue)
     {
+        //Time.timeScale = 0f;
+
+        //Cursor.lockState = CursorLockMode.Locked;
 
         animator.SetBool("isOpen", true);
 
@@ -46,12 +49,27 @@ public class DialogueManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
-        dialogueText.text = sentence;
+        StopAllCoroutines();
+        //Stops running text if player skips, starts a new one after
+        StartCoroutine(TypeSentence(sentence));
     }
+    //Making text pop up one character after another
+    IEnumerator TypeSentence (string sentence)
+    {
+        dialogueText.text = "";
+        foreach (char letter in sentence.ToCharArray())
+        {
+            dialogueText.text += letter;
+            yield return null;
+            //After each letter, we wait a small amount of time (single frame)
+        }
+    }
+
 
     void EndDialogue()
     {
         Debug.Log("End of conversation.");
         animator.SetBool("isOpen", false);
+        //Time.timeScale = 1f;
     }
 }
