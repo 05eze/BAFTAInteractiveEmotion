@@ -5,7 +5,7 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
-    public TextMeshProUGUI textComponent;
+    /*public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
 
@@ -63,6 +63,6 @@ public class Dialogue : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
-    }
+    }*/
     
 }
