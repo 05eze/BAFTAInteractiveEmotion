@@ -71,8 +71,8 @@ public class CharacterController : MonoBehaviour
         Vector3 newVelocity = (transform.forward * Input.GetAxis("Vertical") * maxSpeed + transform.right * Input.GetAxis("Horizontal") * maxSpeed);
         myRigidbody.velocity = new Vector3(newVelocity.x, myRigidbody.velocity.y, newVelocity.z);
 
-        //if (Input.GetMouseButtonDown(1))
-        //{
+        if (Input.GetMouseButton(1))
+        {
             rotation = rotation + Input.GetAxis("Mouse X") * rotationSpeed;
             transform.rotation = Quaternion.Euler(new Vector3(0.0f, rotation, 0.0f));
 
@@ -81,7 +81,7 @@ public class CharacterController : MonoBehaviour
             camRotation = Mathf.Clamp(camRotation, -40.0f, 40.0f);
 
             cam.transform.localRotation = Quaternion.Euler(new Vector3(camRotation, 0.0f, 0.0f));
-       // }
+        }
             
     }
     //Add SFX when picking up collectable 
