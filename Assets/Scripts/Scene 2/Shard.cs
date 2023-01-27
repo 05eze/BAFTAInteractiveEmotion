@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shard1 : MonoBehaviour
+public class Shard : MonoBehaviour
 {
     private void OnTriggerEnter(Collider collider)
     {

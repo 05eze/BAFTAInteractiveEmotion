@@ -7,7 +7,7 @@ public class CursorLock : MonoBehaviour
     void Update()
     {
         //Press the space bar to apply no locking to the Cursor
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             Cursor.lockState = CursorLockMode.None;
         }
