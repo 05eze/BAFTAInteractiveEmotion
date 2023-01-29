@@ -31,7 +31,24 @@ public class EnemyScript : MonoBehaviour
         Speed = MaxSpeed;
     }
 
-    
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
+        }
+        else
+        {
+            if (other.tag != "Player")
+            {
+                Update();
+            }
+        }
+    }
+
+
+
     void Update()
     {
         //Detect players in range
@@ -47,6 +64,7 @@ public class EnemyScript : MonoBehaviour
                     seePlayer = true;
                 }
             }
+
         }
         else
         {
@@ -68,6 +86,8 @@ public class EnemyScript : MonoBehaviour
                     Vector3 Move = new Vector3(Direction.x * Speed , 0, Direction.z * Speed);
                     rb.velocity = Move;
                     transform.forward = Move;
+
+                    
                 }
             }
         }
