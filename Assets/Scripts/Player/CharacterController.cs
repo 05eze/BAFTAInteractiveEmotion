@@ -38,7 +38,7 @@ public class CharacterController : MonoBehaviour
         
         myRigidbody = GetComponent<Rigidbody>();
 
-        //Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;
     }
     
     void Update()
@@ -71,7 +71,7 @@ public class CharacterController : MonoBehaviour
         Vector3 newVelocity = (transform.forward * Input.GetAxis("Vertical") * maxSpeed + transform.right * Input.GetAxis("Horizontal") * maxSpeed);
         myRigidbody.velocity = new Vector3(newVelocity.x, myRigidbody.velocity.y, newVelocity.z);
 
-        if (Input.GetMouseButton(1))
+        //if (Input.GetMouseButton(1))
         {
             rotation = rotation + Input.GetAxis("Mouse X") * rotationSpeed;
             transform.rotation = Quaternion.Euler(new Vector3(0.0f, rotation, 0.0f));
