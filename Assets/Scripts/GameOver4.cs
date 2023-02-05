@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class GameOver4 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public bool isTriggered = true;
+
     void Start()
     {
-        
+        if (isTriggered == false)
+        {
+            if (tag == "Player")
+            {
+                EndGame();
+            }
+
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void EndGame()
     {
-        
+        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver4");
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.tag == "Player") ;
+        {
+            EndGame();
+        }
+    }
+
 }
