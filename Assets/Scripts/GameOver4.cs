@@ -20,7 +20,7 @@ public class GameOver4 : MonoBehaviour
 
     public void EndGame()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver4");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
     }
     private void OnCollisionEnter(Collision collision)
     {
@@ -28,6 +28,6 @@ public class GameOver4 : MonoBehaviour
         {
             EndGame();
         }
-    }
 
+    }
 }
