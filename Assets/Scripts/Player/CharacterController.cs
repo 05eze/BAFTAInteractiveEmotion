@@ -39,7 +39,7 @@ public class CharacterController : MonoBehaviour
         
         myRigidbody = GetComponent<Rigidbody>();
 
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
     
     void Update()
