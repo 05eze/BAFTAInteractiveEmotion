@@ -6281,7 +6281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isTriggered: 1
   dialogue:
-    name: 'OLD MAN '
+    name: BLEMLEY
     sentences:
     - You finally unearthed the prophecy.
     - After all of these years,
