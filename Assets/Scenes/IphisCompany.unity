@@ -11765,8 +11765,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   height: 0
   maxSpeed: 1
-  normalSpeed: 5
-  sprintSpeed: 5
+  normalSpeed: 6
+  sprintSpeed: 6
   rotation: 0
   camRotation: 0
   groundChecker: {fileID: 1486688450}
