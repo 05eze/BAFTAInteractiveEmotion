@@ -25,17 +25,13 @@ public class CharacterController : MonoBehaviour
     public float camRotationSpeed = -1.5f;
 
     public float maxSprint = 5.0f;
-    
+    public bool canMove = true;
     
     
 
     void Start()
     {
-        //if (Input.GetMouseButtonDown(1))
         cam = GameObject.Find("Main Camera");
-
-        
-
         
         myRigidbody = GetComponent<Rigidbody>();
 
@@ -44,47 +40,50 @@ public class CharacterController : MonoBehaviour
     
     void Update()
     {
-        isOnGround = Physics.CheckSphere(groundChecker.transform.position, 0.1f, groundLayer);
 
-        if (isOnGround == true && Input.GetKeyDown(KeyCode.Space))
-        {
-            myRigidbody.AddForce(transform.up * jumpForce);
-        }
+        Debug.Log(canMove);
 
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            maxSpeed = sprintSpeed;
-            
+       if (canMove)
+       {
 
-        }
-        else
-        {
-            maxSpeed = normalSpeed;
-            if (Input.GetKey(KeyCode.LeftShift) == false)
+            isOnGround = Physics.CheckSphere(groundChecker.transform.position, 0.1f, groundLayer);
+
+            if (isOnGround == true && Input.GetKeyDown(KeyCode.Space))
             {
-                
+                myRigidbody.AddForce(transform.up * jumpForce);
             }
-        }
 
-        
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                maxSpeed = sprintSpeed;
 
-        //transform.position = transform.position + (transform.forward * Input.GetAxis("Vertical") * maxSpeed) + transform.right * Input.GetAxis("Horizontal") * maxSpeed;
 
-        Vector3 newVelocity = (transform.forward * Input.GetAxis("Vertical") * maxSpeed + transform.right * Input.GetAxis("Horizontal") * maxSpeed);
-        myRigidbody.velocity = new Vector3(newVelocity.x, myRigidbody.velocity.y, newVelocity.z);
+            }
+            else
+            {
+                maxSpeed = normalSpeed;
+                if (Input.GetKey(KeyCode.LeftShift) == false)
+                {
 
-        //if (Input.GetMouseButton(1))
-        {
+                }
+            }
+
+
+            //Key Controls
+            Vector3 newVelocity = (transform.forward * Input.GetAxis("Vertical") * maxSpeed + transform.right * Input.GetAxis("Horizontal") * maxSpeed);
+            myRigidbody.velocity = new Vector3(newVelocity.x, myRigidbody.velocity.y, newVelocity.z);
+
+
+            //Player rotation
             rotation = rotation + Input.GetAxis("Mouse X") * rotationSpeed;
             transform.rotation = Quaternion.Euler(new Vector3(0.0f, rotation, 0.0f));
 
+            //Cam controller
             camRotation = camRotation + Input.GetAxis("Mouse Y") * camRotationSpeed;
-
             camRotation = Mathf.Clamp(camRotation, -40.0f, 40.0f);
-
             cam.transform.localRotation = Quaternion.Euler(new Vector3(camRotation, 0.0f, 0.0f));
-        }
             
+       }
     }
     //Add SFX when picking up collectable 
 }

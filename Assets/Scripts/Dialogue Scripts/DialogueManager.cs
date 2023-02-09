@@ -11,18 +11,18 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
 
     private Queue<string> sentences;
-
+    public CharacterController character;
 
     void Start()
     {
-        sentences = new Queue<string>();    
+        sentences = new Queue<string>();
+        character = GameObject.Find("Player").GetComponent<CharacterController>();
     }
     
     public void StartDialogue (Dialogue2 dialogue)
     {
-        //Time.timeScale = 0f;
-
-        //Cursor.lockState = CursorLockMode.Locked;
+      
+        character.canMove = false;
 
         animator.SetBool("isOpen", true);
 
@@ -70,6 +70,7 @@ public class DialogueManager : MonoBehaviour
     {
         Debug.Log("End of conversation.");
         animator.SetBool("isOpen", false);
-        //Time.timeScale = 1f;
+
+        character.canMove = true;
     }
 }
