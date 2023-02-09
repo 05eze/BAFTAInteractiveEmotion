@@ -8541,6 +8541,7 @@ MonoBehaviour:
   rotationSpeed: 2
   camRotationSpeed: -1.5
   maxSprint: 5
+  canMove: 1
 --- !u!136 &315487365
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -57376,7 +57377,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'v 0.01
+  m_text: 'v 2.1
 
     ALPHA'
   m_isRightToLeft: 0

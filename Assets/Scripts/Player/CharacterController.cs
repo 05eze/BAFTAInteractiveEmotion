@@ -41,7 +41,7 @@ public class CharacterController : MonoBehaviour
     void Update()
     {
 
-        Debug.Log(canMove);
+       // Debug.Log(canMove);
 
        if (canMove)
        {
