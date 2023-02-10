@@ -26,11 +26,15 @@ public class CharacterController : MonoBehaviour
 
     public float maxSprint = 5.0f;
     public bool canMove = true;
-    
+
+    Animator myAnim; 
     
 
     void Start()
     {
+
+        myAnim = GetComponentInChildren<Animator>();
+
         cam = GameObject.Find("Main Camera");
         
         myRigidbody = GetComponent<Rigidbody>();
@@ -45,11 +49,14 @@ public class CharacterController : MonoBehaviour
 
        if (canMove)
        {
+            
 
             isOnGround = Physics.CheckSphere(groundChecker.transform.position, 0.1f, groundLayer);
+            myAnim.SetBool("isOnGround", isOnGround);
 
             if (isOnGround == true && Input.GetKeyDown(KeyCode.Space))
             {
+                myAnim.SetTrigger("jumped");
                 myRigidbody.AddForce(transform.up * jumpForce);
             }
 
@@ -82,7 +89,9 @@ public class CharacterController : MonoBehaviour
             camRotation = camRotation + Input.GetAxis("Mouse Y") * camRotationSpeed;
             camRotation = Mathf.Clamp(camRotation, -40.0f, 40.0f);
             cam.transform.localRotation = Quaternion.Euler(new Vector3(camRotation, 0.0f, 0.0f));
+          
             
+            myAnim.SetFloat("speed", newVelocity.magnitude);
        }
     }
     //Add SFX when picking up collectable 
