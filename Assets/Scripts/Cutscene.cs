@@ -15,5 +15,4 @@ public class Cutscene : MonoBehaviour
         thePlayer.SetActive(false);
     }
 
-
 }

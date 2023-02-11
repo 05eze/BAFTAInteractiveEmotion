@@ -6,6 +6,7 @@ public class StoryElement : MonoBehaviour
 {
     public bool isTriggered = true;
     public Dialogue2 dialogue;
+    
 
     public void Start()
     {
@@ -27,6 +28,7 @@ public class StoryElement : MonoBehaviour
             if (other.tag == "Player")
             {
                 TriggerDialogue();
+                
             }
         }
     }
