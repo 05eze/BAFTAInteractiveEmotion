@@ -8,7 +8,7 @@ public class GameOverMenu4 : MonoBehaviour
 {
     public void Retry()
     {
-        SceneManager.LoadScene("Iphis2");
+        SceneManager.LoadScene("Iphis 2");
     }
 
     public void MainMenu()

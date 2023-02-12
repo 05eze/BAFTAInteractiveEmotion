@@ -6,7 +6,11 @@ public class GameOver2 : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver2");
+        if (other.tag == "Player")
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver2");
+        }
+        
     }
     
 
