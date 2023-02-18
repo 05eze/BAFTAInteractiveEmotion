@@ -13,10 +13,17 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> sentences;
     public CharacterController character;
 
+    public AudioClip SoundToPlay;
+    public float Volume;
+    AudioSource audio;
+    public bool alreadyPlayed = false;
+    private Queue<string> audioline;
+
     void Start()
     {
         sentences = new Queue<string>();
         character = GameObject.Find("Player").GetComponent<CharacterController>();
+        //audio = GetComponent<AudioSource>();
     }
     
     public void StartDialogue (Dialogue2 dialogue)
@@ -32,12 +39,20 @@ public class DialogueManager : MonoBehaviour
 
         sentences.Clear();
 
+        //if (!alreadyPlayed)
+        //{
+         //   audio.PlayOneShot(SoundToPlay, Volume);
+           // alreadyPlayed = true;
+            //audio.PlayScheduled(AudioSettings.dspTime + SoundToPlay.length);
+        //}
+
         foreach (string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
         }
 
-        DisplayNextSentence();
+        DisplayNextSentence(); 
+        
     }
 
     public void DisplayNextSentence()
@@ -64,6 +79,7 @@ public class DialogueManager : MonoBehaviour
             //After each letter, we wait a small amount of time (single frame)
         }
     }
+
 
 
     void EndDialogue()

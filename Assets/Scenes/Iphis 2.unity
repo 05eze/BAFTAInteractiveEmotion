@@ -19171,6 +19171,9 @@ MonoBehaviour:
   dialogueText: {fileID: 417436974}
   animator: {fileID: 133511768}
   character: {fileID: 0}
+  SoundToPlay: {fileID: 0}
+  Volume: 0
+  alreadyPlayed: 0
 --- !u!4 &960463745
 Transform:
   m_ObjectHideFlags: 0
