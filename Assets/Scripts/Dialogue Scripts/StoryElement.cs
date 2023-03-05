@@ -27,6 +27,7 @@ public class StoryElement : MonoBehaviour
         {
             if (other.tag == "Player")
             {
+
                 TriggerDialogue();
                 
             }

@@ -24,7 +24,6 @@ public class PlaySound : MonoBehaviour
         {
             audio.PlayOneShot(SoundToPlay, Volume);
             alreadyPlayed = true;
-            audio.PlayScheduled(AudioSettings.dspTime + SoundToPlay.length);
         }
     }
 }
