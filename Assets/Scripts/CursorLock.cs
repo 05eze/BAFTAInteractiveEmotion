@@ -23,7 +23,10 @@ public class CursorLock : MonoBehaviour
     void OnGUI()
     {
         //Press this button to lock the Cursor
-        
+        if (GUI.Button(new Rect(0, 0, 100, 50), "Lock Cursor"))
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
 
         //Press this button to confine the Cursor within the screen
         {

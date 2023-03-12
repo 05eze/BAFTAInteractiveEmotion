@@ -4371,7 +4371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.3443218, g: 0.5849056, b: 0.5564446, a: 0.7764706}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9814,6 +9814,9 @@ MonoBehaviour:
   dialogueText: {fileID: 1956723943}
   animator: {fileID: 1383093024}
   character: {fileID: 0}
+  SoundToPlay: {fileID: 0}
+  Volume: 0
+  alreadyPlayed: 0
 --- !u!4 &2108887322
 Transform:
   m_ObjectHideFlags: 0
