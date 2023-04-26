@@ -8,7 +8,8 @@ public class ActivateOrDeactivate : MonoBehaviour
     public GameObject gameObject;
 
     [SerializeField] GameObject _dialogueParent;
-    [SerializeField] GameObject _dialogue;
+    [SerializeField] GameObject _dialogue; 
+  //  [SerializeField]  chase;
     
 
     private void OnTriggerEnter(Collider other)

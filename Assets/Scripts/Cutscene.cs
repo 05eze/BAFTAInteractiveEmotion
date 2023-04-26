@@ -8,11 +8,13 @@ public class Cutscene : MonoBehaviour
     public GameObject cutsceneCam;
     public GameObject gObject;
 
+
+
     void OnTriggerEnter(Collider other)
     {
         cutsceneCam.SetActive(true);
         gObject.SetActive(true);
-        thePlayer.SetActive(false);
+
     }
 
 }
